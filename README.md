@@ -5,15 +5,15 @@ There are two variants, the "gamepad" variant which only works on PC as far as I
 
 Requirements:
               
-              An HID arduino compatible board, I used the Pro Micro.
+*An HID arduino compatible board, I used the Pro Micro.
 
-              For PS3 Fightpad you will need the arduino ide 1.6.5.
+*For PS3 Fightpad you will need the arduino ide 1.6.5.
               
-              For PC pad you will need this joystick library: https://github.com/MHeironimus/ArduinoJoystickLibrary
+*For PC pad you will need this joystick library: https://github.com/MHeironimus/ArduinoJoystickLibrary
               
 Setup:
 
-  PC pad: Having the joystick library installed, upload the sketch to your board using the latest arduino IDE.
+*PC pad: Having the joystick library installed, upload the sketch to your board using the latest arduino IDE.
   
-  PS3 pad: Get Arduino IDE 1.6.5, copy and replace HID.cpp and USBAPI.h on \arduino-1.6.5-r5\hardware\arduino\avr\cores\arduino, 
+ *PS3 pad: Get Arduino IDE 1.6.5, copy and replace HID.cpp and USBAPI.h on \arduino-1.6.5-r5\hardware\arduino\avr\cores\arduino, 
             then open the IDE select the port and upload the .ino sketch.
