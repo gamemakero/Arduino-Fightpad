@@ -17,3 +17,5 @@ Setup:
   
 * PS3 pad: Get Arduino IDE 1.6.5, copy and replace HID.cpp and USBAPI.h on \arduino-1.6.5-r5\hardware\arduino\avr\cores\arduino, 
             then open the IDE select the port and upload the .ino sketch.
+
+Original PS3 files were coded by user miisalo at https://www.arcade-projects.com/forums/index.php?thread/391-neogeo-joystick-to-pc-ps3/
