@@ -122,4 +122,5 @@ void loop() {
   mapJoystick();
   PS3Controller.setState(&controllerState);
   PS3Controller.sendState();
+  delay(5); //delays the next loop to avoid noise problems in the buttons.
 }
